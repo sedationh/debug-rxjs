@@ -1,7 +1,7 @@
 import { from } from "rxjs"
 import { myMap } from "."
 
-test.only("map", () => {
+test("map", () => {
   const source = [1, 2, 3]
   const excepted = [2, 4, 6]
 
